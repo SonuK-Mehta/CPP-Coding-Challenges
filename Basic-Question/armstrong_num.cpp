@@ -14,8 +14,8 @@ cout << "\n\n";
   q = num;
   p = num;
 
-  while(p != 0){  //122
-    p = p/10;     // 122/10 =12
+  while(p != 0){ 
+    p = p/10;     
     count++;
   }
 
@@ -25,12 +25,12 @@ cout << "\n\n";
   while(q != 0){
     rem = q % 10;
 
-      while(cnt != 0){   // 2
-        add = add * rem; // 1 * 5 = 5 // 5 * 5 = 25
+      while(cnt != 0){   
+        add = add * rem;
         cnt--;
       }
       
-    sum = sum + add; //0+25 =25
+    sum = sum + add; 
     add = 1;
     cnt = count;
     q = q / 10;
