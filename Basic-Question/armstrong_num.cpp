@@ -43,7 +43,6 @@ cout << "\n\n";
   else 
     cout << "\nIt's not a Armstrong Number";
 
-
 cout << "\n\n";
 return 0;
 }
