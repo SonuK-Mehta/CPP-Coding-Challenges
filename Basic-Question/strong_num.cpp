@@ -24,7 +24,6 @@ cout << "\n\n";
       }
 
     add += fact;
-
     fact = 1;
     num = num / 10;
   }
